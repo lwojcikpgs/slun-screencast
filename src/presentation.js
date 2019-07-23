@@ -16,7 +16,7 @@ import {
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
-import { WelcomeScreen, AgendaScreen, WhatIsScreen, ModulesScreen } from './slides';
+import { WelcomeScreen, AgendaScreen, WhatIsScreen, SimpleSlideScreen } from './slides';
 
 // Require CSS
 require('normalize.css');
@@ -46,6 +46,8 @@ export default class Presentation extends React.Component {
         <WelcomeScreen />
         <AgendaScreen />
         <WhatIsScreen />
+        <SimpleSlideScreen title={"Wielowątkowość"} message={"Node.js is a single threaded language which in background uses multiple threads to execute asynchronous code."} />
+        <SimpleSlideScreen title={"Instalacja"} message={"https://nodejs.org"} />
       </Deck>
     );
   }

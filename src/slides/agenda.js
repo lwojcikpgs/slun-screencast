@@ -20,11 +20,11 @@ export function AgendaScreen() {
                 [
                     'Czym jest Node Js',
                     'Wielowątkowość',
-                    'Moduły',
                     'Instalacja',
                     'Hello world',
                     'Express Js',
                     'Middleware',
+                    'Obsługa błędów',
                     'Routing',
                     'Konfiguracja',
                     'Mongo DB'
